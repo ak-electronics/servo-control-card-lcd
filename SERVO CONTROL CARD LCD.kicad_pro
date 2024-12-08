@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 3.0,
-          "width": 1.8
+          "drill": 1.0,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -183,6 +183,7 @@
         0.8,
         0.9,
         1.0,
+        1.5,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -508,6 +509,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "Buzzer"
+      },
+      {
+        "netclass": "Default",
         "pattern": "Current"
       },
       {
@@ -545,6 +550,10 @@
       {
         "netclass": "Default",
         "pattern": "INPUT_volt"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(BZ1-Pad2)"
       },
       {
         "netclass": "Default",
@@ -604,10 +613,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(K1-Pad12)"
-      },
-      {
-        "netclass": "Default",
         "pattern": "Net-(Q1-Pad3)"
       },
       {
@@ -617,6 +622,10 @@
       {
         "netclass": "Default",
         "pattern": "Net-(Q3-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q4-Pad2)"
       },
       {
         "netclass": "Default",
@@ -632,10 +641,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R16-Pad2)"
-      },
-      {
-        "netclass": "Default",
         "pattern": "Net-(R2-Pad1)"
       },
       {
@@ -648,42 +653,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U1-Pad11)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-Pad10)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-Pad7)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-Pad8)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U3-Pad9)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U4-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U4-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U5-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U5-Pad5)"
-      },
-      {
-        "netclass": "Default",
         "pattern": "O-P_voltage"
       },
       {
@@ -693,10 +662,6 @@
       {
         "netclass": "Default",
         "pattern": "Output_Relay"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "POT"
       },
       {
         "netclass": "Default",
@@ -721,6 +686,10 @@
       {
         "netclass": "Default",
         "pattern": "SW_3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SW_4"
       },
       {
         "netclass": "Default",
@@ -848,7 +817,7 @@
   },
   "sheets": [
     [
-      "bf446162-9f08-4c66-8809-e869975b7ed3",
+      "24907df8-134f-4fbe-a898-1681fdd34e09",
       "Root"
     ]
   ],
