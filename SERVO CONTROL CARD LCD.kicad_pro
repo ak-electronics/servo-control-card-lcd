@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 1.3,
+          "height": 1.85,
+          "width": 3.048
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -513,6 +513,10 @@
       },
       {
         "netclass": "Default",
+        "pattern": "CT_input"
+      },
+      {
+        "netclass": "Default",
         "pattern": "Current"
       },
       {
@@ -601,15 +605,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(D9-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad2)"
+        "pattern": "Net-(K1-Pad12)"
       },
       {
         "netclass": "Default",
@@ -653,11 +649,51 @@
       },
       {
         "netclass": "Default",
+        "pattern": "Net-(U3-Pad10)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-Pad7)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-Pad8)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U3-Pad9)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U4-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U4-Pad5)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U5-Pad5)"
+      },
+      {
+        "netclass": "Default",
         "pattern": "O-P_voltage"
       },
       {
         "netclass": "Default",
         "pattern": "OUTPUT_volt"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Op_cutt1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Op_cutt2"
       },
       {
         "netclass": "Default",
@@ -817,7 +853,7 @@
   },
   "sheets": [
     [
-      "24907df8-134f-4fbe-a898-1681fdd34e09",
+      "d6ee1140-34c9-4ad5-8279-4568555d5bc5",
       "Root"
     ]
   ],
